@@ -1,6 +1,6 @@
 FROM node:6-alpine
 
-MAINTAINER Aleksandar Diklic "https://github.com/rastasheep"
+MAINTAINER Chris McGroarty "https://github.com/cmcg"
 
 RUN \
   echo "http://dl-cdn.alpinelinux.org/alpine/edge/community" >> /etc/apk/repositories \
