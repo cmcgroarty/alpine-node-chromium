@@ -1,6 +1,6 @@
 FROM node:7-alpine
 
-MAINTAINER Chris McGroarty "https://github.com/cmcg"
+MAINTAINER Chris McGroarty "https://github.com/cmcgroarty"
 
 RUN \
   echo "http://dl-cdn.alpinelinux.org/alpine/edge/community" >> /etc/apk/repositories \

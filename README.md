@@ -25,10 +25,11 @@ If you're interested into actual Karma configuration, it looks like:
 
 ### • Image tags
 
-- rastasheep/alpine-node-chromium:8-alpine (based on: node:8-alpine)
-- rastasheep/alpine-node-chromium:7-alpine (based on: node:7-alpine)
-- rastasheep/alpine-node-chromium:6-alpine (based on: node:6-alpine)
-- rastasheep/alpine-node-chromium:4-alpine (based on: node:4-alpine)
+- cmcg/node-chromium:10-alpine (based on: node:10-alpine)
+- cmcg/node-chromium:8-alpine (based on: node:8-alpine)
+- cmcg/node-chromium:7-alpine (based on: node:7-alpine)
+- cmcg/node-chromium:6-alpine (based on: node:6-alpine)
+- cmcg/node-chromium:4-alpine (based on: node:4-alpine)
 
 ### • Installed packages
 
