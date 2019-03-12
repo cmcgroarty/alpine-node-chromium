@@ -10,7 +10,7 @@ RUN \
   && apk --no-cache  upgrade \
   && apk add --no-cache --virtual .build-deps \
     gifsicle pngquant optipng libjpeg-turbo-utils \
-    udev ttf-opensans chromium shadow tzdata \
+    udev ttf-opensans chromium shadow tzdata git \
   && rm -rf /var/cache/apk/* /tmp/*
 
 ENV CHROME_BIN /usr/bin/chromium-browser
